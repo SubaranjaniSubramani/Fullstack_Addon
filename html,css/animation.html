@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .ball
+       {
+        height: 100px;
+        width: 100px;
+        background-image: radial-gradient(rgb(9, 52, 59),pink);
+        border-radius: 50px;
+        animation-name: ball;
+        animation-duration:1s;
+        animation-iteration-count: infinite;
+       }
+       @keyframes ball{
+        from{
+            transform: translateX(100vw)
+            translateY(-100px);
+
+        }
+        to{
+            transform: translateX(100vw)
+            translateY(100px);
+
+        }
+       }
+       .table
+       {
+        height: 10px;
+        width: 150px;
+        background-image: linear-gradient(rgb(31, 38, 39),rgb(70, 26, 33));
+        border-radius: 150px;
+        position:absolute;
+        top:400px;
+       
+       }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <div class="table"></div>
+</body>
+</html>

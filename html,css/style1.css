@@ -1,0 +1,34 @@
+p{
+    margin: 10px 20px 50px 100px;
+    border-width: 9px;
+    border-style: inset;
+    border-color: brown;
+    padding: 10px 15px 20px 5px;
+}
+p#p1
+{
+    margin: 10px 20px 50px 100px;
+    border-width: 16px;
+    border-style: outset;
+    border-color: aqua;
+    padding: 10px 15px 20px 150px;
+    background-color: darkgray;
+    text-align: center;
+}
+ div.div1{
+    width: fit-content;
+    margin: auto;
+   
+}
+.class2{
+    height: 300px;
+    width: 150px;
+    border: 5px solid blueviolet;
+    border-radius: 40px;
+}
+#img1  {
+    height: 300px;
+    width: 150px;
+    border: 5px solid blueviolet;
+    border-radius: 40px;
+}

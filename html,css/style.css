@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+h3{
+    background-color: khaki;
+    font-family: "Spicy Rice", serif;
+}
+p.para2{
+    color: dimgrey;
+}
+p#para3
+{
+    background-color: lightseagreen;
+}
+/*descendant(space) */
+
+div.div1 p{
+    background-color:plum;
+    color: azure;
+}
+/*child(>) */
+div.div1>p{
+    background-color: rgba(235, 19, 19, 0.315);
+}
+ /*Adjacent sibling*/
+ div.div1+p{
+    background-color: blueviolet;
+ }
+ /*Gendral sibling*/
+ div.div1~p{
+    color:brown;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+ }
+/*universal selector*/
+*{
+    background-color:rgb(179, 231, 226);
+}
+.class1
+{
+    margin: auto;
+    width: fit-content;
+}
+#id1
+{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+/*font properties*/
+div 
+{
+    font-size: 2em;
+}
+h1 
+{
+    font-size: 2em;
+    font-family: "Pacifico", cursive;
+}
+p
+{
+    font-size: 2em;
+}

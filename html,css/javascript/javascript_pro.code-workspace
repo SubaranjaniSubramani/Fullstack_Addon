@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../javascript_pro"
+		},
+		{
+			"path": "../fetch concept"
+		},
+		{
+			"path": "../callback"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

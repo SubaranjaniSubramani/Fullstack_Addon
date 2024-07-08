@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    :root {
+        --text-color: rgb(10, 2, 10);
+        --heading-font-size: 2em;
+    }
+
+    body {
+
+        background-image:radial-gradient(pink,rgb(117, 242, 247),transparent 80%);
+         /* url("https://img.freepik.com/premium-photo/roses-are-full-bloom-warm-sunlight_1021843-368.jpg?w=740"); */
+           
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:fixed;
+        height: 100vh;
+        color: var(--text-color);
+    }
+
+    i {
+        font-size: var(--heading-font-size);
+    }
+
+    .company 
+    {
+
+        font-size: 2.57em;
+        font-variant: small-caps;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    li 
+    {
+        list-style: none;
+        padding: 0px 10px;
+    }
+    a 
+    {
+        text-decoration-line: none;
+        font-size: X-large;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: var(--text-color);
+    }
+    ul 
+    {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    header
+     {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(241, 183, 241);
+        border-radius: 20px;
+        padding: 0px 30px; */
+        margin-top:0%;
+    }
+    li:hover 
+    {
+        border-bottom: 2px solid var(--text-color);
+        background-color: rgb(214, 94, 94);
+        transition-duration: 3s;
+        box-shadow: 10px 20px 7px rgb(75, 75, 194);
+        text-shadow: 5px 10px 3px rgb(143, 35, 35);
+    }
+    li:active 
+    {
+        background-color: rgb(157, 216, 177);
+    }
+
+    :target 
+    {
+        background-color: rgb(94, 177, 197);
+        color: darkmagenta;
+        padding: 5px 15px;
+        transition-duration: 1s;
+    }
+
+    img 
+    {
+        height: 220px;
+        width: 250px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    main 
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon 
+    {
+        position:absolute;
+        top: 50px;
+        left: 50px;
+        color: rgb(223, 18, 137);
+        animation-name:balloon;
+        animation-duration: 5s;
+        animation-iteration-count:infinite;
+        animation-timing-function:cubic-bezier(0.42, 0.68, 0.96,-0.12);
+    }
+    @keyframes balloon
+    {
+        from{
+           
+        }
+        to{
+         transform:translateX(100vw)
+        }
+    }
+
+    /* li{
+        transition-duration: 5s;
+    } */
+</style>
+
+<body>
+    <div class="icon">
+        <i class='bx bxs-balloon'></i>
+    </div>
+    <header>
+        <div>
+            <i class='bx bxs-hot'></i>
+            <span class="company">Conical</span>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#hom">Home</a></li>
+                    <li><a href="#pag">Page</a></li>
+                    <li><a href="#por">Portfolio</a></li>
+                    <li><a href="#blo">Blog</a></li>
+                    <li><a href="#sh">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas maxime culpa qui, 
+        commodi illum deleniti! Distinctio possimus porro nesciunt adipisci perspiciatis veniam amet 
+        dolorem ad maxime laborum, nam incidunt velit! Nemo odio, 
+        quod provident ut esse ad quas optio voluptatibus aliquam rem.</p> -->
+        <div>
+            <h1 id="hom">home</h1>
+            <h1 id="pag">page</h1>
+            <h1 id="por">portfolio</h1>
+            <h1 id="blo">blog</h1>
+            <h1 id="sh">shop</h1>
+        </div>
+      
+        <div>
+            <img src="https://images.pexels.com/photos/1067202/pexels-photo-1067202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    /* background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image:radial-gradient(ellipse at center,rgb(168, 18, 43),white,rgb(224, 40, 178)); */
+
+/* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-HD-Nature-Backgrounds.jpg"); */
+background-image: url("https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-13.jpg");
+}
+
+.class1 {
+    display: inline-flex;
+}
+
+.class2 {
+    display: inline-flex;
+}
+
+.overall
+ {
+    width: 310px;
+    margin: auto;
+}
+
+div 
+{
+    height: 150px;
+    width: 150px;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+#img1 {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+
+}
+
+
+#img2 {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 0px;
+}
+
+#img3 {
+
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 70px;
+}
+
+#img4 {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}

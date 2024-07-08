@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        div{
+            width:400px;
+            height: 50px;
+            /* overflow-x: scroll;
+            overflow-y: hidden; */
+            overflow: hidden scroll;
+        }
+        p{
+            width: 600px;
+            height: 150px;
+            cursor: grab;
+        }
+        p:active
+        {
+            cursor:grabbing;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, id molestias. Sapiente iusto ipsum eos 
+            sed porro saepe ratione asperiores necessitatibus eum, fugiat praesentium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis sequi doloribus debitis voluptatum suscipit totam aut nemo, odio ipsum expedita eaque, eum minus dolores aliquam 
+            commodi, quasi fuga adipisci iusto qui quae quisquam. Recusandae?
+        </p>
+    </div>
+</body>
+</html>

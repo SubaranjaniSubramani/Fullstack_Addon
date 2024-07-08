@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+    <style>
+        ul{
+           /* list-style-type:upper-roman;
+           list-style-position:outside; */
+           list-style-image: url("../images1.png");
+        }
+        table tr:nth-child(odd)
+        {
+            background-color: rgb(241, 168, 168);
+        }
+        table,td,th{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            margin: auto;
+            width: fit-content;
+            empty-cells: hide;
+            border-spacing: 13px;
+         caption-side: bottom;
+            /* table-layout: fixed; */
+        }
+        td{
+            padding: 8px;
+            text-align: center;
+        }
+        th{
+            background-color:brown;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <ul>
+        <li>hello</li>
+        <li>About</li>
+        <li>skill</li>
+        <li>contact</li>
+    </ul>
+    <div>
+    <table>
+        <caption>Table</caption>
+        <tr>
+            <th>days</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+       
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>tam</td>
+            <td>eng</td>
+            <td>mat</td>
+         
+        </tr>
+        <tr>
+            <td>tue</td>
+            <td>sci</td>
+            <td>soc</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>wed</td>
+            <td>pt</td>
+            <td>eng</td>
+            <td>pt</td>
+        </tr>
+        <tr>
+            <td>thur</td>
+            <td>pt</td>
+            <td>eng</td>
+            <td>mat</td>
+        
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
